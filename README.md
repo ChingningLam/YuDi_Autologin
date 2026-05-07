@@ -13,6 +13,7 @@
 
 修改完成之后的net.sh直接丢到/root/里面
 自启动的话net.service放置在/etc/init.d目录下 设置为开机自启动
+log文件会在/root/net.log
 
 我的设备运行immortalwrt 搭配 UA3F的proxy模式和不一定必要的openclash使用
 
@@ -25,3 +26,15 @@ https://github.com/zhxycn/WHUT-WLAN
 https://owo.cab/posts/tinker/openwrt-campus-network-bypass
 
 还有github自带的copilot里面的claude大模型
+
+# 手动运行
+/root/net.sh &
+
+# 使用自定义用户名和密码
+/root/net.sh myusername mypassword
+
+# 查看实时日志
+tail -f /root/net.log
+
+# 停止脚本
+killall net.sh
