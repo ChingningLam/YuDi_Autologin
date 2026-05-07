@@ -14,5 +14,8 @@
 
 感谢
 https://github.com/JiangTx/zax_autologin/tree/main
+
 https://github.com/zhxycn/WHUT-WLAN
+
 https://owo.cab/posts/tinker/openwrt-campus-network-bypass
+还有github自带的copilot里面的claude大模型
