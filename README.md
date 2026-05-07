@@ -4,6 +4,10 @@
 使用方法
 首先修改net.sh里面的username和password为自己的账号密码
 
+默认web登陆界面是http://172.168.2.100/account/login?ip=$wlanacip&nasId=1
+
+需要根据自己的web登录认证界面按需修改
+
 会优先获取CSRF Token的方式来进行自动登录
 如果CSRF Token登陆失败则用默认的web curl来登录
 
