@@ -58,10 +58,10 @@ while true; do
         fi
     fi
     
-    # 方式2: 备选认证
+    # 方式2: 备选认证  自己改一下认证地址
     curl -fs -c "$SESSION" -b "$SESSION" \
         -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-        "http://172.168.2.100/tpl/gzccc/login_account.html?ip=$wlanacip&nasId=1" > /dev/null 2>&1
+        "http://172.168.2.100/tpl/yourschool/login_account.html?ip=$wlanacip&nasId=1" > /dev/null 2>&1
     
     RESP=$(curl -s -X POST "http://172.168.2.100/account/login?ip=$wlanacip&nasId=1" \
         -c "$SESSION" -b "$SESSION" \
