@@ -1,6 +1,8 @@
 # yudi_autologin
 雨滴web自动登陆脚本
 
+# 停用已修改，等待更新
+
 # 使用方法
 # 首先修改net.sh里面的username和password为自己的账号密码
 
