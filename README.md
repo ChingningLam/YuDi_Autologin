@@ -1,4 +1,4 @@
-# YuDi_Web_Portal_Autologin
+# 雨滴自动登录+被检测封禁mac地址后自动更改mac地址后重新认证
 适用于 雨滴web portal的自动登陆脚本
 
 被封会自己更改mac地址后重试
